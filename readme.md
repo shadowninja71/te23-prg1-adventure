@@ -117,31 +117,24 @@ def main():
 
 Du ska arbeta med att ta fram en berättelse. Du ska sedan använda den färdiga koden för att visa upp berättelsen. Du ska skapa en ny fil för din berättelse och importera den till `app.py`.
 
-1. Skapa en berättelse i formatet [choose your own adventure] med minst 5 sidor.
-2. Skapa en ny fil för din berättelse och spara den i formatet som en lista med dicts.
+1. Skapa en berättelse i formatet [choose your own adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) med minst 5 sidor.
+2. Skapa en ny fil för din berättelse och spara den i formatet som en `lista` med `dicts`.
 3. Importera din berättelse till `app.py` genom att använda `import`.
 4. Kör programmet och testa din berättelse.
 
-Det är grunden för uppgiften. Om du vill kan du utveckla den vidare genom att lägga till fler funktioner eller förbättra användarupplevelsen.
+Det är grunden för uppgiften. 
 
-Lycka till!
+## Utveckling
+Här finns en lista med förslag på hur du kan utveckla din berättelse och programmet:
 
-## Extra
+1. **Fler sidor och alternativ**: Lägg till fler sidor och valmöjligheter i din berättelse för att göra den mer komplex och engagerande.
+2. **Huvudmeny**: Skapa en huvudmeny där spelaren kan välja att starta ett nytt spel eller avsluta. Använd en loop för att hantera menyn.
+3. **Historik och återgång**: Spara en historik över spelarens val så att de kan gå tillbaka till tidigare sidor. Använd en lista för att spara valen och skapa en funktion för att spela upp historiken.
+4. **Spara och ladda spel**: Lägg till funktioner för att spara och ladda spelet så att spelaren kan fortsätta där de slutade.
+5. **Stridssystem**: Implementera stridssekvenser där spelaren måste välja rätt alternativ för att vinna. Använd sten, sax, påse som grund för striderna och skapa en funktion som hanterar striden.
+6. **Karaktärsval**: Låt spelaren välja en karaktär i början av spelet som påverkar hur spelet utvecklas.
+7. **Föremål och inventarie**: Skapa ett system där spelaren kan samla och använda föremål för att lösa problem. Använd en lista för att hantera spelarens inventarie.
+8. **Poängräknare**: Lägg till en poängräknare som ökar eller minskar beroende på spelarens val.
+9. **Tidsbegränsade val**: Inför en tidsbegränsning för att göra val, där spelaren måste välja inom en viss tid eller förlora.
 
-Om du vill utveckla uppgiften ytterligare kan du:
-
-1. Lägga till fler sidor och alternativ i berättelsen.
-2. Skapa en huvudmeny för spelaren. Tips: använd en loop för att låta spelaren välja att starta ett nytt spel eller avsluta.
-3. Spara en historik över användarens val och låta dem gå tillbaka till tidigare sidor. Tips: använd en lista för att spara historiken, du lägger till spelarens val i listan med append.
-  - Skapa en replay-funktion som spelar upp berättelsen från historiken.
-4. Lägga till fler funktioner för att förbättra användarupplevelsen, som att spara och ladda spel. 
-5. Stridsystem: Lägg till stridssekvenser där spelaren måste välja olika alternativ för att vinna striden.
-  - Använd dig av sten, sax, påse för att simulera striden. A slår B, B slår C, C slår A.
-  - Fienden kan vara en dict med olika egenskaper.
-  - Skapa en funktion för combat som tar in spelarens liv, fiendens dict och sedan promptar stridssekvensen, returnera True om spelaren vinner och False om spelaren förlorar.
-6. Lägg till fler val för spelaren, som att välja en karaktär i början som påverkar spelet.
-7. Att kunna samla föremål under spelets gång.
-  - inventory system, ett inventory(lista) med föremål(dicts) som spelaren kan samla på sig.
-  - Faktiskt kunna använda föremålen för att lösa problem.
-7. Skapa en poängräknare som ökar eller minskar beroende på spelarens val.
-8. Lägg till en tidsbegränsning för att göra val, där spelaren måste välja inom en viss tid eller förlora.
+Dessa förslag kan hjälpa dig att göra din berättelse och programmet mer interaktivt och engagerande för spelaren.
