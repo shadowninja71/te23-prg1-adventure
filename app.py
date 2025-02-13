@@ -5,7 +5,7 @@
 # berättelsen i vår kod. Det är viktigt att den heter BOOK (det är därför vi använder
 # as BOOK) för det är variabeln som används i vår kod.
 # from book import BOOK
-from redbutton import adventure as BOOK
+from minecraftstory import adventure_story as BOOK
 
 # Funktion input_int som tar en sträng som argument och returnerar ett heltal.
 # Sträng-argumentet är det som skrivs ut i input prompten.
